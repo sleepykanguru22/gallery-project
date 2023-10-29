@@ -4,16 +4,16 @@ import { data } from './data';
 function App() {
     return (
         <div className={styles.App}>
-            <ol>
+            {/* <ol>
                 {data.data.map((name) => (
                     <li key={name.name}>{name.name}</li>
                 ))}
             </ol>
-            <div>
+            <ul>
                 {data.data.map((name) => (
                     <li>{name.artist.name}</li>
                 ))}
-            </div>
+            </ul> */}
             <img src={pic} alt="" />
         </div>
     );

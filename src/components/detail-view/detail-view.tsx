@@ -1,7 +1,6 @@
 import classNames from 'classnames';
 import React from 'react';
 import styles from './detail-view.module.scss';
-import { data } from '../../data';
 
 export interface DetailViewProps {
     className?: string;
